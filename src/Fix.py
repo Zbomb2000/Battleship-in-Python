@@ -15,7 +15,7 @@ print("Starting...")
 cd = os.path.dirname(__file__)
 raw_cd_var = r"{}".format(cd)
 
-
+# This attempts to auto-install pyautogui
 def installLibrary():
     # Attempts to install the library
     try:
@@ -67,6 +67,11 @@ def validatePoint(input_var):
 # Creates the grid
 main_grid = {"a1": 0, "a2": 0, "a3": 0, "b1": 0, "b2": 0, "b3": 0, "c1": 0, "c2": 0, "c3": 0}
 attack_grid = {"a1": 0, "a2": 0, "a3": 0, "b1": 0, "b2": 0, "b3": 0, "c1": 0, "c2": 0, "c3": 0}
+
+# Player shots
+attacker_shots = ["a1", "a2", "a3", "b1", "b2", "b3", "c1", "c2", "c3"]
+attacker_shots = ["a1", "a2", "a3", "b1", "b2", "b3", "c1", "c2", "c3"]
+
 
 print("")
 print("")
